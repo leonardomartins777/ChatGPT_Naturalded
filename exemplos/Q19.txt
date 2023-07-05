@@ -1,0 +1,10 @@
+# \lnot B \rightarrow \lnot A \vdash A \rightarrow B
+1. ~B->~A	pre
+2. {	A	   hip
+3.	   { ~B  hip
+4.	     ~A 	->e 3,1
+5.	      @  ~e 2,4
+	   }
+6.	   B 	raa 3-5
+   }
+7. A->B		->i 2-6

@@ -1,0 +1,15 @@
+# (A\wedge B)\vee (A\wedge C) \vdash A\wedge (B \vee C) 
+1.  (A & B) | (A & C) pre
+2.  {   A & B hip
+3.      A &e 2
+4.      B &e 2
+5.      B | C |i 4
+6.      A & (B | C) &i 3, 5
+    }
+7.  {   A & C hip
+8.      A &e 7
+9.      C &e 7
+10.     B | C |i 9
+11.     A & (B | C) &i 8, 10
+    }
+12. A & (B | C) |e 1, 2-6, 7-11

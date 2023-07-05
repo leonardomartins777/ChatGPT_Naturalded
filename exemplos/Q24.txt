@@ -1,0 +1,14 @@
+#  \lnot A\vee \lnot B \vdash \lnot (A\wedge B)
+1.  ~A | ~B pre
+2.  {   A & B hip
+3.      A &e 2
+4.      B &e 2
+5.      {   ~A hip
+6.          @ ~e 3, 5
+        }
+7.      {   ~B hip
+8.          @ ~e 4, 7
+        }
+9.      @ |e 1, 5-6, 7-8
+    }
+10. ~(A & B) ~i 2-9

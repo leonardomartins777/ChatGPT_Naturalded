@@ -1,0 +1,11 @@
+# \vdash (A\vee (A\wedge B)) \rightarrow A 
+1. {    A | (A & B) hip
+2.      {   A hip
+3.          A copie 2
+        }
+4.      {   A & B hip
+5.          A &e 4
+        }
+6.      A |e 1, 2-3, 4-5
+    }
+7. (A | (A & B)) -> A ->i 1-6

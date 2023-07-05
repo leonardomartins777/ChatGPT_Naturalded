@@ -1,0 +1,11 @@
+# A\rightarrow C, B\rightarrow C, A\vee B \vdash C 
+1. A -> C pre
+2. B -> C pre
+3. A | B pre
+4. {    A hip
+5.      C ->e 4, 1
+    }
+6. {    B hip
+7.      C ->e 6, 2
+    }
+8. C |e 3, 4-5, 6-7

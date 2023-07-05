@@ -1,0 +1,12 @@
+# \lnot (A \wedge \lnot B) \vdash A\rightarrow B
+1. ~ (A & ~ B) pre
+2. {    A hip
+3.      {    ~ B hip
+4.           A copie 2
+5.           (A & ~ B) &i 4, 3
+6.           ~ (A & ~ B) copie 1
+7.           @ ~e 5, 6
+        }
+8.      B raa 3-7
+   }
+9. A -> B ->i 2-8

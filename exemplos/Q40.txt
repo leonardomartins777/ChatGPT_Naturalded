@@ -1,0 +1,15 @@
+# A \rightarrow B \vdash \lnot A \vee B
+1. A -> B pre
+2. {    ~ (~ A | B) hip
+3.      {    A hip
+4.           A -> B copie 1
+5.           B ->e 3, 4
+6.           ~ A | B |i 5
+7.           ~ (~ A | B) copie 2
+8.           @ ~e 6, 7
+        }
+9.      ~ A ~i 3-8
+10.     ~ A | B |i 9
+11.     @ ~e 2, 10
+   }
+12. ~ A | B raa 2-11

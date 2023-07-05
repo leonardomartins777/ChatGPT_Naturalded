@@ -1,0 +1,5 @@
+# \vdash (A\wedge (A\vee B))\rightarrow A
+1. {    A & (A | B) hip
+2.      A &e 1
+    }
+3. (A & (A | B)) -> A ->i 1-2

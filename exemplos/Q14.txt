@@ -1,0 +1,14 @@
+# \vdash ((A \rightarrow B) \rightarrow A) \rightarrow A
+1. {    (A  -> B) -> A hip
+2.      {   ~A hip
+3.          {   A hip
+4.              @ ~e 3,2
+5.              B @e 4
+            }
+6.          A -> B ->i 3-5
+7.          A  ->e 6,1
+8.          @  ~e 7,2
+        } 
+9.      A raa 2-8
+   }
+10. ((A  -> B) -> A) -> A ->i 1-9 
