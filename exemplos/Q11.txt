@@ -1,9 +1,0 @@
-# B \rightarrow (A\rightarrow C)\vdash A\land B \rightarrow C
-1. B->(A->C)		pre
-2. {	A&B		hip
-3.	B		&e 2
-4.	A->C		->e 3,1
-5.	A		&e 2
-6. 	C		->e 5,4 
-   }
-7. A&B -> C		->i 2-6

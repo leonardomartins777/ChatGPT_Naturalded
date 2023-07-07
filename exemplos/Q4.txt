@@ -1,9 +1,0 @@
-# \vdash (A\rightarrow (A\rightarrow B))\rightarrow (A\rightarrow B)
-1. {    A -> (A -> B) hip
-2.      {   A hip
-3.          A -> B ->e 2,1
-4.          B ->e 2,3
-        }
-5.      A -> B ->i 2-4
-   }
-6. (A -> (A-> B)) -> (A -> B) ->i 1-5

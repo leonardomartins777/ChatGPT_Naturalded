@@ -1,6 +1,0 @@
-# \lnot \lnot A \vdash A
-1. ~~A pre
-2. {    ~A hip
-3.      @ ~e 2, 1
-    }
-4. A raa 2-3
